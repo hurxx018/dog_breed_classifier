@@ -8,4 +8,19 @@ def dog_detector(
     img = Image.open(img_filename).convert("RGB")
 
 
-    return 
+    return
+
+
+def human_detector(
+    img_filename
+    ):
+    """ Detect human faces in an image.
+
+    Inputs:
+    image file name : String
+
+    Outputs:
+    if a human face exists, True. Otherwise, False : bool
+    
+    """
+    img = Image.open(img_filename).convert("RGB")
